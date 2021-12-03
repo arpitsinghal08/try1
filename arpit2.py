@@ -1,0 +1,1 @@
+print("arpit \nminal\t arpit\nminal")

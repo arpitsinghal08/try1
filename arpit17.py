@@ -1,0 +1,40 @@
+# file reading
+"""
+
+content=f.read()
+print(content)
+f.close()
+
+f=open("arpit.txt","rb")
+content=f.read()
+print(content)
+f.close()
+"""
+# f=open("arpit.txt")
+# content=f.read(3)
+# print(content)
+# content=f.read(3)
+# print(content)
+# f.close()
+#
+# f=open("arpit.txt")
+# print(f.readline())
+# print(f.readline())
+# print(f.readline())
+
+# content=f.read()
+# print(content)
+# f.close()
+# f=open("arpit.txt")
+# print(f.tell())
+# print(f.readline())
+# print(f.tell())
+# print(f.readline())
+# print(f.tell())
+f=open("arpit.txt")
+print(f.readline())
+f.seek(34)
+d=f.read()
+print(d)
+print(f.readline())
+f.close()
